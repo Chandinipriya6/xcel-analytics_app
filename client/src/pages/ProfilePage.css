@@ -1,0 +1,32 @@
+.profile-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* 🔥 Set background image */
+background: url("https://img.freepik.com/free-vector/abstract-blue-geometric-shapes-background_1035-17545.jpg") 
+    no-repeat center center/cover;
+}
+
+.profile-details {
+  background: rgba(255, 255, 255, 0.9); /* White glass effect */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  max-width: 450px;
+  width: 100%;
+}
+
+.profile-details h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.profile-details p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #333;
+}

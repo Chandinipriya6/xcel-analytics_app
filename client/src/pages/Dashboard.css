@@ -1,0 +1,157 @@
+/* ===============================
+   Admin Dashboard Styles (Blue Theme)
+   =============================== */
+
+.admin-dashboard {
+  display: flex;
+  min-height: 100vh;
+  background: #eef4ff; /* light blue background */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Sidebar */
+.admin-sidebar {
+  position: fixed;
+  top:0;
+  left: 0;
+  bottom: 0;
+  width: 220px;
+  background: #2c3e50; /* blue sidebar */
+  color: white;
+  padding: 20px;
+  display: flex;
+  /* height: 100vh; */
+  flex-direction: column;
+  justify-content: space-between;
+  /* border-right: 3px solid #023e8a; */
+}
+
+.admin-sidebar-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.admin-sidebar-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.admin-btn-profile,
+.admin-btn-logout {
+  background: #0096c7; /* lighter blue buttons */
+  border: none;
+  padding: 10px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 6px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.admin-btn-profile:hover,
+.admin-btn-logout:hover {
+  background: #00b4d8;
+  transform: scale(1.05);
+}
+
+/* Main Area */
+.admin-main {
+  margin-left: 250px;
+  flex: 1;
+  padding: 20px;
+}
+
+.admin-topbar {
+  background: #ffffff;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.admin-topbar-title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #023e8a; /* navy blue text */
+  text-align: center;
+}
+
+/* Content Area */
+.admin-content {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+.admin-search-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #90e0ef;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.admin-search-input:focus {
+  border-color: #0077b6;
+  box-shadow: 0 0 6px rgba(0, 119, 182, 0.3);
+}
+
+/* User Table */
+.admin-user-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-user-table th,
+.admin-user-table td {
+  padding: 14px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.admin-user-table th {
+  background: #caf0f8; /* soft blue header */
+  color: #023e8a;
+  font-weight: 600;
+}
+
+/* Status Buttons */
+.admin-btn-active {
+  background: #38b000;
+  border: none;
+  padding: 7px 14px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.admin-btn-inactive {
+  background: #d00000;
+  border: none;
+  padding: 7px 14px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.admin-btn-active:hover {
+  background: #2d9100;
+}
+
+.admin-btn-inactive:hover {
+  background: #a00000;
+}

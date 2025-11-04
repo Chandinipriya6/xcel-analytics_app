@@ -1,0 +1,277 @@
+/* Layout */
+.dashboardd {
+  display: flex;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f6f9;
+  color: #2c3e50;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.dashboardd.dark {
+  background: #1e272e;
+  color: #ecf0f1;
+}
+
+/* Sidebar */
+.sidebarr {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 240px;
+  height: 100%;
+  background: linear-gradient(180deg, #2c3e50, #34495e);
+  color: #fff;
+  padding: 25px 20px;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.15);
+}
+
+.dashboardd.dark .sidebarr {
+  background: linear-gradient(180deg, #1b1f24, #2d3436);
+}
+
+.sidebarr h2 {
+  margin-bottom: 25px;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  color: #ecf0f1;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 12px;
+}
+
+.sidebarr button {
+  display: block;
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  background: transparent;
+  color: #ecf0f1;
+  border: none;
+  border-radius: 8px;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.sidebarr button:hover,
+.sidebarr button:focus {
+  background: #1abc9c;
+  color: #fff;
+}
+
+/* Main content */
+.main-contentt {
+  margin-left: 260px;
+  padding: 30px;
+  flex-grow: 1;
+}
+
+/* Header Bar */
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.dark-toggle {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #2c3e50;
+  transition: color 0.3s ease;
+}
+
+.dashboardd.dark .dark-toggle {
+  color: #f1c40f;
+}
+
+/* Headings */
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.dashboardd.dark h1 {
+  color: #ecf0f1;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 0 15px;
+  color: #34495e;
+}
+
+.dashboardd.dark h2 {
+  color: #ecf0f1;
+}
+
+/* Stats Grid */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.stat-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, background 0.3s ease, color 0.3s ease;
+}
+
+.dashboardd.dark .stat-card {
+  background: #2d3436;
+  color: #ecf0f1;
+}
+
+.stat-card:hover {
+  transform: translateY(-4px);
+}
+
+.stat-card h3 {
+  font-size: 26px;
+  margin: 10px 0;
+  color: #2c3e50;
+}
+
+.dashboardd.dark .stat-card h3 {
+  color: #ecf0f1;
+}
+
+.stat-card p {
+  font-size: 14px;
+  color: #7f8c8d;
+}
+
+.dashboardd.dark .stat-card p {
+  color: #bdc3c7;
+}
+
+.stat-icon {
+  font-size: 28px;
+  margin-bottom: 8px;
+  color: #34495e;
+}
+
+.stat-icon.green {
+  color: #699f7f;
+}
+.stat-icon.red {
+  color: #b47a73;
+}
+
+/* Chart */
+.chart-box {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.dashboardd.dark .chart-box {
+  background: #2d3436;
+  color: #ecf0f1;
+}
+
+/* Tables */
+.dashboard-tablee {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+  margin-top: 15px;
+}
+
+.dashboard-tablee thead {
+  background: #2c3e50;
+  color: #fff;
+}
+
+.dashboardd.dark .dashboard-tablee thead {
+  background: #34495e;
+}
+
+.dashboard-tablee th {
+  padding: 14px;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 8px 8px 0 0;
+}
+
+.dashboard-tablee td {
+  background: #fff;
+  padding: 14px;
+  font-size: 14px;
+  border-bottom: 1px solid #e0e6ed;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.dashboardd.dark .dashboard-tablee td {
+  background: #3a3a3a;
+  color: #ecf0f1;
+  border-bottom: 1px solid #555;
+}
+
+.dashboard-tablee tr {
+  transition: all 0.2s ease;
+}
+
+.dashboard-tablee tr:hover td {
+  background: #f9f9f9;
+}
+
+.dashboardd.dark .dashboard-tablee tr:hover td {
+  background: #444;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  min-width: 80px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-approve {
+  background: #599472;
+  color: #fff;
+}
+
+.btn-approve:hover {
+  background: #518b69;
+}
+
+.btn-reject {
+  background: #e47265;
+  color: #fff;
+}
+
+.btn-reject:hover {
+  background: #c46055;
+}
+
+.btn-approve:disabled,
+.btn-reject:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

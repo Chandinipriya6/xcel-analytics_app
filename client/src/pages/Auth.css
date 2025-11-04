@@ -1,0 +1,33 @@
+
+.auth-container {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.auth-container h1 {
+  text-align: center;
+}
+
+.auth-container input {
+  display: block;
+  width: 95%;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.toggle-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.role-selection {
+  text-align: center;
+  margin-bottom: 10px;
+}
