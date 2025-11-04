@@ -1,4 +1,4 @@
-# Excel Analytics Platform
+![WhatsApp Image 2025-11-04 at 16 33 56_72f3db64](https://github.com/user-attachments/assets/3f91451d-07c8-4c82-8fa0-1b67144c4184)# Excel Analytics Platform
 
 > Upload Excel files and instantly turn them into interactive 2D/3D visualizations and dashboards — no coding required.
 
@@ -8,7 +8,6 @@
 
 Excel Analytics Platform is a web application that allows users to upload `.xlsx` / `.xls` files, explore data fields, and create interactive visualizations (bar, pie, scatter, histogram, heatmap, 2D/3D charts). Users can save analysis history, download charts, and admins/superadmins can manage users and view dashboards.
 
-This README was created to be used in the project's GitHub repository. Replace any placeholder paths with actual paths in your repo (for example: `docs/screenshots/`).
 
 ---
 
@@ -124,17 +123,21 @@ Open `http://localhost:3000` (or the port you configured).
 
 Add the screenshots to `docs/screenshots/` in your repo and reference them below (replace file names if different):
 
-![Landing page](docs/screenshots/landing.png)
+![WhatsApp Image 2025-11-04 at 16 33 56_72f3db64](https://github.com/user-attachments/assets/55a6c020-ccde-4713-89e8-4f59e5cef7ee)
 
-![Login/Register](docs/screenshots/login.png)
+![WhatsApp Image 2025-11-04 at 16 34 17_e85b9912](https://github.com/user-attachments/assets/d6070383-c142-48d5-ba70-3a31ab530266)
 
-![Upload Form](docs/screenshots/upload.png)
+![WhatsApp Image 2025-11-04 at 16 34 38_574e0d86](https://github.com/user-attachments/assets/7ec593b4-ae44-40e4-b0f8-2063165df774)
 
-![Chart Builder](docs/screenshots/chart-builder.png)
+![WhatsApp Image 2025-11-04 at 16 35 25_5afd1fbf](https://github.com/user-attachments/assets/dc6605ff-f068-46dd-bbba-49157e576467)
 
-![Analysis History](docs/screenshots/analysis-history.png)
+![WhatsApp Image 2025-11-04 at 16 35 50_be99219c](https://github.com/user-attachments/assets/f3b1e8b3-4023-4634-827b-2bf150fbd984)
 
-![Admin Dashboard](docs/screenshots/admin-dashboard.png)
+![WhatsApp Image 2025-11-04 at 16 36 22_bbf30283](https://github.com/user-attachments/assets/83673973-1da1-4130-a2e8-62e9f2c4d3c0)
+
+![WhatsApp Image 2025-11-04 at 16 37 13_06e33d68](https://github.com/user-attachments/assets/ce488db2-0878-4c43-8790-5bca205b8683)
+
+![WhatsApp Image 2025-11-04 at 16 37 53_ab534ba8](https://github.com/user-attachments/assets/86915dd8-763f-4db5-86fe-27803fc9868c)
 
 ---
 
